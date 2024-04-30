@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding-top: 10px;
+    background-color: rgb(23, 66, 94);
+}
+.header-content{
+    display: flex;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul a{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    padding-left: 60px;
+    position: relative;
+    left: 670px;
+}
+#hero{
+    background-image: url('/img/office.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top:1px;
+}
+.hero-content{
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 40px;
+    margin-top: 170px;
+    margin-left: 40%;
+    margin-right: 30%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content h2{
+    color: white;
+    font-size: 30px;
+}
+.hero-content p{
+    color: white;
+    font-size: 20px;
+}
+.hero-button {
+    background-color: #da5700;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    margin-left: 30%;
+}
+#services{
+    text-align: center;
+}
+#services h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: 600;
+}
+#services ul{
+    list-style: none;
+}
+#about{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#about h2{
+    color: rgb(0, 182, 0);
+}
+#contact{
+    text-align: center;
+}
+#contact h2{
+    color: red;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (max-width: 768px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+    padding-top: 1px;
+    background-color: rgb(23, 66, 94);
+    margin-right: 15%;
+    }
+    .header-content {
+    display: flex;
+    }
+    h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top:13px;
+    right:30px;
+    }
+    nav ul {
+    list-style: none;
+    display: flex;
+    }
+    nav ul a {
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 9px;
+    float: left;
+    position: relative;
+    left: -45px;
+    }
+    #hero {
+    background-image: url('/img/office.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 80%;
+    padding-top: 1px;
+    }
+    .hero-content {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    }
+    .hero-content h2 {
+    color: white;
+    font-size: 20px;
+    }
+    .hero-content p {
+    color: white;
+    font-size: 15px;
+    }
+    .hero-button {
+    background-color: #da5700;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 1px;
+    border-radius: 8px;
+    margin-left: 30%;
+    }
+    #services {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    right: 55px;
+    }
+    #services h2 {
+    font-size: 20px;
+    }
+    #about {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    right: 55px;
+    margin-left: 45px;
+    margin-right: 45px;
+    }
+    #contact {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    right: 55px;
+    }
+    #contact h2 {
+    color: red;
+    }
+    footer {
+    text-align: center;
+    font-size: small;
+    position: relative;
+    right: 55px;
+     }
+}
